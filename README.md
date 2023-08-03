@@ -2,7 +2,7 @@
 This repository contains [Hierarchical Event Descriptors (HED)](https://www.hedtags.org/) labels of 1015 images from the [Natural Scenes Dataset (NSD)](https://naturalscenesdataset.org/) images. This is work in progress...
 
 # Images
-1000 images and their annotations are included in the shared1000_HED.tsv. An additional 15 images and their annotations are included in notShown_HED.tsv. 
+1000 images and their annotations are included in the shared1000_HED.tsv. An additional 15 images and their annotations are included in notShown_HED.tsv. The column titled nsd_id corresponds to the ID of the image as seen in the NSD. The cocoId column corresponds to the indentifier in [COCO](https://cocodataset.org/#home) (note: the images used for NSD and these annotations may be a cropped version of the COCO image)
 
 # HED tagging
 All tags are HED validated and are from the standard schema. Both short-form and long-form annotations are included.
@@ -22,7 +22,7 @@ All tags are HED validated and are from the standard schema. Both short-form and
   - Adolescent (13 years through 17 years)
   - Adult (18 years or older)
   - Older-adult (65 and older)
-  - 
+  
 ### Foreground and background
 Annotations are grouped into Foreground-view and Background-view sections for all images. Counts and agents are only considered in the Foreground-view.
 
@@ -33,7 +33,7 @@ Annotations are grouped into Foreground-view and Background-view sections for al
 Tags only in the foreground of the image include a count and do not specify numbers higher than [4 which is the limit to fast numerosity judgments.](https://doi.org/10.1068/p050327)
 
 ### Faces
-the Face tag is always accompanied by an Away-from tag (side-profile) or a Towards tag (full face) as measures of how prominent a face is.
+The Face tag is always accompanied by an Away-from tag (side-profile) or a Towards tag (full face) as measures of how prominent a face is.
 
 # Contributors (alphabetically)
 If you make substantial changes to this repository, please also feel free to add your name as a contributor
