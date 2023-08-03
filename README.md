@@ -14,7 +14,7 @@ All tags are HED validated and are from the standard schema. Both short-form and
 - Action/Ride
 - Man-made-object/Musical-instrument
 - Man-made-object/Toy
-- Terrain/Beachy-terrain
+- Terrain/Sand
 - Agent-trait/
   - Newborn (birth to 1 month)
   - Infant (1 month to 1 year)
