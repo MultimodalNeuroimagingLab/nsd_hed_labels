@@ -1,2 +1,8 @@
 # nsd_hed_labels
-HED labels of NSD images
+This repository contains HED labels of NSD images.
+
+
+# Contributors (alphabetical)
+Tal Pal Attia
+Dora Hermes
+Claire Holmes 
