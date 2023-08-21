@@ -1,5 +1,6 @@
 site_name: HED tagging NSD images
 theme: readthedocs
+extra_css: [extra.css]
 nav:
 - 'About' : 'index.md'
 - 'Images and Annotations': 'nsd_images_annotations.md'
