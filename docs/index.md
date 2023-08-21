@@ -16,12 +16,12 @@ All tags are HED validated and are from the standard schema. Both short-form and
 - Man-made-object/Toy
 - Terrain/Sand
 - Agent-trait/
-  - Newborn (birth to 1 month)
-  - Infant (1 month to 1 year)
-  - Child (1 year through 12 years)
-  - Adolescent (13 years through 17 years)
-  - Adult (18 years or older)
-  - Older-adult (65 and older)
+    - Newborn (birth to 1 month)
+    - Infant (1 month to 1 year)
+    - Child (1 year through 12 years)
+    - Adolescent (13 years through 17 years)
+    - Adult (18 years or older)
+    - Older-adult (65 and older)
   
 **Foreground and background**
 Annotations are grouped into Foreground-view and Background-view sections for all images. Counts and agents are only considered in the Foreground-view.
