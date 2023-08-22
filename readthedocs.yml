@@ -1,12 +1,5 @@
 version: 2
 
-python:
-  install:
-    - method: pip
-      path: ./docs
-      extra_requirements:
-        - requirements.txt
-
 build:
   os: ubuntu-22.04
   tools:
@@ -18,3 +11,7 @@ build:
 mkdocs:
   configuration: mkdocs.yml
 
+
+python:
+  install:
+    - requirements: docs/requirements.txt
