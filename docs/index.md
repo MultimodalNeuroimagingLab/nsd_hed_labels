@@ -5,7 +5,7 @@ This repository contains [Hierarchical Event Descriptors (HED)](https://www.hedt
 1000 images and their annotations are included in the shared1000_HED.tsv. An additional 15 images and their annotations are included in notShown_HED.tsv. The column titled nsd_id corresponds to the ID of the image as seen in the NSD. The cocoId column corresponds to the indentifier in [COCO](https://cocodataset.org/#home) (note: the images used for NSD and these annotations may be a cropped version of the COCO image). Images are shown to participants with a red fixation dot in the center of the image.
 
 ## HED tagging
-All tags are HED validated and are from the standard schema. Both short-form and long-form annotations are included.
+All tags are HED validated and are from the standard schema. Both short-form and long-form annotations are included in the tsv files uploaded to the [GitHub repository](https://github.com/MultimodalNeuroimagingLab/nsd_hed_labels)
 
 ### **Tagging specifics**
 The following extensions were used throughout the tags (and passed HED validation):
