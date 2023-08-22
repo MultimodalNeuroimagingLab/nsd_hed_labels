@@ -6,7 +6,7 @@ build:
     python: "3.11"
   commands: 
     - pip install -r ./docs/requirements.txt 
-    - python ./docs/write_viewer_mkfile.py --output _readthedocs/html/ docs/
+    - python ./docs/write_viewer_mkfile.py
 
 mkdocs:
   configuration: mkdocs.yml
