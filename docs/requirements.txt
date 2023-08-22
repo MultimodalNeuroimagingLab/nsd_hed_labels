@@ -30,7 +30,7 @@ markupsafe==2.1.3
     #   jinja2
     #   mkdocs
     #   mkdocstrings
-mdutils==1.6.0
+mdutils[python]==1.6.0
     # via -r docs/requirements.in
 mergedeep==1.3.4
     # via mkdocs
@@ -51,7 +51,7 @@ numpy==1.25.2
     # via pandas
 packaging==23.1
     # via mkdocs
-pandas==2.0.3
+pandas[python]==2.0.3
     # via -r docs/requirements.in
 pathspec==0.11.2
     # via mkdocs

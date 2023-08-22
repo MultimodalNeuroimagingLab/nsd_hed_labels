@@ -1,5 +1,5 @@
 mkdocs
 mkdocstrings[python]
 markdown-include
-pandas==2.0.3
-mdutils==1.6.0
+pandas[python]
+mdutils[python]
