@@ -5,6 +5,7 @@ def generate_markdown_content():
     # prints the NSD images and their HED annotations to a markdown file for a Read the Docs page 
 
     import pandas
+    import datetime
     from mdutils.mdutils import MdUtils
 
     # load tsv of image identifiers and annotations
@@ -12,6 +13,7 @@ def generate_markdown_content():
 
     # start markdown file
     mdFile = MdUtils(file_name='nsd_images_annotations', title='Images and Annotations', author= 'Claire Holmes')
+    mdFile.new_line(datetime.datetime.now() + '\n')
 
     # set up headers for table
     mdFile.new_line('test 1')
@@ -47,4 +49,4 @@ def generate_markdown_content():
 if __name__ == "__main__":
     markdown_content = generate_markdown_content()
     print(markdown_content)
-    print('test a')
+

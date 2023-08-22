@@ -8,6 +8,8 @@ click==8.1.7
     # via mkdocs
 colorama==0.4.6
     # via griffe
+datetime[python]==5.2
+    # via -r docs/requirements.in
 ghp-import==2.1.0
     # via mkdocs
 griffe==0.34.0
@@ -64,7 +66,9 @@ python-dateutil==2.8.2
     #   ghp-import
     #   pandas
 pytz==2023.3
-    # via pandas
+    # via
+    #   datetime
+    #   pandas
 pyyaml==6.0.1
     # via
     #   mkdocs
@@ -78,3 +82,8 @@ tzdata==2023.3
     # via pandas
 watchdog==3.0.0
     # via mkdocs
+zope-interface==6.0
+    # via datetime
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools

@@ -3,3 +3,4 @@ mkdocstrings[python]
 markdown-include
 pandas[python]
 mdutils[python]
+datetime[python]
