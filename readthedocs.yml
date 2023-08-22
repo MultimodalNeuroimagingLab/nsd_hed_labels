@@ -5,7 +5,8 @@ build:
   tools:
     python: "3.11"
   commands: 
-    - ./docs/write_viewer_mkfile.py
+    - cd docs
+    - python write_viewer_mkfile.py
 
 
 mkdocs:
