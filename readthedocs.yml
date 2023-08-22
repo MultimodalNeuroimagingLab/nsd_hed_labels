@@ -9,5 +9,5 @@ build:
     python: "3.11"
   commands: 
     - pip install -r ./docs/requirements.txt 
-    - python ./docs/generate_docs.py
+    - python ./docs/generate_docs.py > nsd_images_annotations.md
     - python -m mkdocs build --clean --site-dir $READTHEDOCS_OUTPUT/html --config-file mkdocs.yml
