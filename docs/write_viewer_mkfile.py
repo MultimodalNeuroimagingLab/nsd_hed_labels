@@ -5,10 +5,10 @@ import pandas
 from mdutils.mdutils import MdUtils
 
 # load tsv of image identifiers and annotations
-shared1000 = pandas.read_table('shared1000_HED.tsv')
+shared1000 = pandas.read_table('../shared1000_HED.tsv')
 
 # start markdown file
-mdFile = MdUtils(file_name='NSD_images_annotations', title='Images and Annotations', author= 'Claire Holmes')
+mdFile = MdUtils(file_name='nsd_images_annotations', title='Images and Annotations', author= 'Claire Holmes')
 
 # set up headers for table
 mdFile.new_line('|Image|HED annotation|')
@@ -23,7 +23,7 @@ for i in range(1000):
     # write/print the image (from it's reference)
     mdFile.write('|![' + file_name[:10] + '][' + str(i+1) + ']')
     # path to get the image (from the filename)
-    path = './docs/downsampled1000/' + file_name
+    path = './downsampled1000/' + file_name
     # write the reference to the image file
     mdFile.new_reference_image(file_name, path, str(i+1))
     
