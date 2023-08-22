@@ -45,5 +45,5 @@ def generate_markdown_content():
 
 if __name__ == "__main__":
     markdown_content = generate_markdown_content()
-    with open("nsd_images_annotations.md", "w") as f:
-        f.write(markdown_content)
+    # with open("nsd_images_annotations.md", "w") as f:
+    #     f.write(markdown_content)
