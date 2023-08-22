@@ -3,5 +3,5 @@ theme: readthedocs
 extra_css: [extra.css]
 nav:
 - 'About' : 'index.md'
-- 'Images and Annotations': 'nsd_images_annotations.md'
+- 'Images and Annotations': 'test.md'
 
