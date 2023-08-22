@@ -11,7 +11,7 @@ shared1000 = pandas.read_table('././shared1000_HED.tsv')
 mdFile = MdUtils(file_name='nsd_images_annotations', title='Images and Annotations', author= 'Claire Holmes')
 
 # set up headers for table
-mdFile.new_line('**Only the first 4 images have been uploaded to GitHub and displayed here as an example. All images will be uploaded pending input from collaborators. All links to COCO images should be working. (note: actual NSD images may be a cropped version of the COCO image. The cropped version is the one displayed here and on GitHub)**')
+mdFile.new_line('**Only the first 4 images have been uploaded to GitHub and displayed here as an example. All images will be uploaded pending input from collaborators. All links to COCO images should be working. (note: actual NSD images may be a cropped version of the COCO image. The cropped version is the one displayed here and on GitHub)**\n')
 mdFile.new_line('|Image|HED annotation|')
 mdFile.new_line('|---|---|\n')
 

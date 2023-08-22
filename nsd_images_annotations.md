@@ -2,8 +2,8 @@
 Images and Annotations
 ======================
   
-**Only the first 4 images have been uploaded to GitHub and displayed here as an example. All images will be uploaded pending input from collaborators. All links to COCO images should be working. (note: actual NSD images may be a cropped version of the COCO image. The cropped version is the one displayed here and on GitHub)**  
-
+**Only the first 4 images have been uploaded to GitHub and displayed here as an example. All images will be uploaded pending input from collaborators. All links to COCO images should be working. (note: actual NSD images may be a cropped version of the COCO image. The cropped version is the one displayed here and on GitHub)**
+  
 |Image|HED annotation|  
 |---|---|
 |![shared0001][1]<br>[Image on GitHub](https://github.com/holmesclaire/nsd_hed_labels/blob/main/docs/downsampled1000/shared0001_nsd02951_downsampled.png)<br>[Image on COCO](https://cocodataset.org/#explore?id=262145)|(Foreground-view, ((Item-count, High), Ingestible-object)), (Background-view, ((Human, Body, Agent-trait/Adult), Outdoors, Furnishing, Natural-feature/Sky, Urban, Man-made-object))|
