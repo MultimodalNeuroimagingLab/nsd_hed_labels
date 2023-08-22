@@ -5,13 +5,13 @@ def generate_markdown_content():
     # prints the NSD images and their HED annotations to a markdown file for a Read the Docs page 
 
     import pandas
-    import mdutils
+    from mdutils.mdutils import MdUtils
 
     # load tsv of image identifiers and annotations
     shared1000 = pandas.read_table('././shared1000_HED.tsv')
 
     # start markdown file
-    mdFile = mdutils(file_name='nsd_images_annotations', title='Images and Annotations', author= 'Claire Holmes')
+    mdFile = MdUtils(file_name='nsd_images_annotations', title='Images and Annotations', author= 'Claire Holmes')
 
     # set up headers for table
     mdFile.new_line('The images on this webpage have been downsampled from [425, 425] to [200, 200] for upload to GitHub and this webpage.\n')
