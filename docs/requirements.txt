@@ -30,6 +30,8 @@ markupsafe==2.1.3
     #   jinja2
     #   mkdocs
     #   mkdocstrings
+mdutils==1.6.0
+    # via -r docs/requirements.in
 mergedeep==1.3.4
     # via mkdocs
 mkdocs==1.5.2
@@ -45,8 +47,12 @@ mkdocstrings[python]==0.22.0
     #   mkdocstrings-python
 mkdocstrings-python==1.5.0
     # via mkdocstrings
+numpy==1.25.2
+    # via pandas
 packaging==23.1
     # via mkdocs
+pandas==2.0.3
+    # via -r docs/requirements.in
 pathspec==0.11.2
     # via mkdocs
 platformdirs==3.10.0
@@ -54,7 +60,11 @@ platformdirs==3.10.0
 pymdown-extensions==10.1
     # via mkdocstrings
 python-dateutil==2.8.2
-    # via ghp-import
+    # via
+    #   ghp-import
+    #   pandas
+pytz==2023.3
+    # via pandas
 pyyaml==6.0.1
     # via
     #   mkdocs
@@ -64,5 +74,7 @@ pyyaml-env-tag==0.1
     # via mkdocs
 six==1.16.0
     # via python-dateutil
+tzdata==2023.3
+    # via pandas
 watchdog==3.0.0
     # via mkdocs
