@@ -8,14 +8,10 @@ build:
 
 mkdocs:
   configuration: mkdocs.yml
+  requirements_file: docs/requirements.txt
+  build:
+    - python write_viewer_mkfile.py
 
 python:
   install:
     - requirements: docs/requirements.txt
-    - method: pip
-      path: .
-      extra_requirements:
-        - docs
-    - method: pip
-      path: docs/write_viewer_mkfile.py
-  system_packages: true
