@@ -47,3 +47,4 @@ def generate_markdown_content():
 if __name__ == "__main__":
     markdown_content = generate_markdown_content()
     print(markdown_content)
+    print('test a')
