@@ -1,6 +1,7 @@
 
 Images and Annotations
 ======================
+**Only the first 4 images have been uploaded to GitHub and displayed here as an example. All images will be uploaded pending input from collaborators. All links to COCO images should be working. (note: actual NSD images may be a cropped version of the COCO image. The cropped version is the one displayed here and on GitHub)**
   
 |Image|HED annotation|  
 |---|---|
