@@ -1,5 +1,9 @@
 version: 2
 
+python:
+  install:
+    - requirements: docs/requirements.txt
+
 build:
   os: ubuntu-22.04
   tools:
@@ -10,6 +14,3 @@ build:
 mkdocs:
   configuration: mkdocs.yml
 
-python:
-  install:
-    - requirements: docs/requirements.txt
