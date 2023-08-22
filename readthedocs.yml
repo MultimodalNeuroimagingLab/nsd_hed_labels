@@ -6,7 +6,7 @@ build:
     python: "3.11"
   commands: 
     - cd docs
-    - python /docs/write_viewer_mkfile.py
+    - python write_viewer_mkfile.py
 
 mkdocs:
   configuration: mkdocs.yml
