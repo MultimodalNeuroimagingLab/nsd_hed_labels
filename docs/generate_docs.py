@@ -13,7 +13,7 @@ def generate_markdown_content():
 
     # start markdown file
     mdFile = MdUtils(file_name='nsd_images_annotations', title='Images and Annotations', author= 'Claire Holmes')
-    mdFile.new_line(datetime.datetime.now() + '\n')
+    mdFile.new_line(str(datetime.datetime.now()) + '\n')
 
     # set up headers for table
     mdFile.new_line('test 1')
