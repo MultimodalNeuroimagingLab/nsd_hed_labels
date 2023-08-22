@@ -30,8 +30,7 @@ for i in range(1000):
     # get the coco ID from the tsv 
     cocoID = shared1000.cocoId[i]
     # caption the image with the link to the uploaded image on GitHub and the corresponding image on COCO
-    mdFile.write('<br> <a hfred = \"https://github.com/holmesclaire/nsd_hed_labels/blob/main/docs/shared1000/' + shared1000.File_Name[i] + '\" target = \"_blank\">Image on GitHub </a>')
-    mdFile.write('<br> <a hfred = \"https://cocodataset.org/#explore?id=' + str(cocoID) + '\" target = \"_blank\">Image on COCO </a>')
+    mdFile.write('<br>[Image on GitHub](https://github.com/holmesclaire/nsd_hed_labels/blob/main/docs/shared1000/' + shared1000.File_Name[i] + ')<br>[Image on COCO](https://cocodataset.org/#explore?id=' + str(cocoID) + ')')
     # write the annotation from the tsv
     annotation = shared1000.HED_short[i]
     mdFile.write('|' + annotation + '|\n')
