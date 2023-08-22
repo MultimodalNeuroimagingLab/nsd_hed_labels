@@ -1,6 +1,9 @@
 # Claire Holmes August 2023
 # prints the NSD images and their HED annotations to a markdown file for a Read the Docs page 
 
+import pandas
+from mdutils.mdutils import MdUtils
+
 # load tsv of image identifiers and annotations
 shared1000 = pandas.read_table('././shared1000_HED.tsv')
 
