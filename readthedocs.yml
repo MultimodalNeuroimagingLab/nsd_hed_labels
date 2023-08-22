@@ -4,13 +4,11 @@ build:
   os: ubuntu-22.04
   tools:
     python: "3.11"
+  commands: ./docs/write_viewer_mkfile.py
 
 
 mkdocs:
   configuration: mkdocs.yml
-  requirements_file: docs/requirements.txt
-  build:
-    - python write_viewer_mkfile.py
 
 python:
   install:
