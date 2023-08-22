@@ -12,3 +12,9 @@ mkdocs:
 python:
   install:
     - requirements: docs/requirements.txt
+
+# Build steps
+steps:
+  - type: shell
+    commands:
+      - python write_viewer_mkfile.py  
