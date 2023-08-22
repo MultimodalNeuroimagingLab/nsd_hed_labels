@@ -1,6 +1,14 @@
 site_name: HED tagging NSD images
 theme: readthedocs
 extra_css: [extra.css]
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        # See: https://mkdocstrings.github.io/python/usage/
+        python:
+          options:
+            docstring_style: sphinx
 nav:
 - 'About' : 'index.md'
 - 'Images and Annotations': 'nsd_images_annotations.md'
