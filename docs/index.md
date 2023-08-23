@@ -39,8 +39,8 @@ The Face tag is always accompanied by an Away-from tag (side-profile) or a Towar
 #### **Agents**  
 Agent tags (Human-agent and Animal-agent) are used in addition to their Item tags (Human and Animal) when there is evidence of an active motion within the image. Good examples of this are legs in an active walking/running motion, water spray from a surfboard to show it is moving through the water, and snow spray from skis to show movement through the snow.
 
-## Contributors (alphabetically)
-If you make substantial changes to this repository, please also feel free to add your name as a contributor
+## Contributors
+If you make substantial changes to this repository, please also feel free to add your name as a contributor (alphabetically)
 
 - Dora Hermes
 - Claire Holmes 
