@@ -9,5 +9,5 @@ build:
     python: "3.11"
   commands: 
     - pip install -r ./docs/requirements.txt 
-    - python ./docs/generate_docs.py > test.md
+    - python ./docs/generate_docs.py > docs/test.md
     - python -m mkdocs build --clean --site-dir $READTHEDOCS_OUTPUT/html --config-file mkdocs.yml
