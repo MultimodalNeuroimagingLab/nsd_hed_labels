@@ -16,7 +16,7 @@ def generate_markdown_content():
 
     # set up headers for table
     mdFile.new_line('The images on this webpage have been downsampled from [425, 425] to [200, 200] for upload to GitHub and this webpage.\n')
-    mdFile.new_line('**Only the first 4 images have been uploaded to GitHub and displayed here as an example. All images will be uploaded pending input from collaborators. All links to COCO images should be working. (note: actual NSD images may be a cropped version of the COCO image. The cropped version is the one displayed here and on GitHub)**\n')
+    mdFile.new_line('**Only the first 4 images have been uploaded to GitHub and displayed here as an example. All images will be uploaded pending input from collaborators. All links to COCO images should be working.** \n note: actual NSD images may be a cropped version of the COCO image. The cropped version is the one displayed here and on GitHub.\n')
     mdFile.new_line('Last update: ' + str(datetime.datetime.utcnow().strftime('%B %d %Y - %H:%M:%S')) + '\n')
     mdFile.new_line('|Image|HED annotation|')
     mdFile.new_line('|---|---|\n')
