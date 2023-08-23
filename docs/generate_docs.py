@@ -13,7 +13,7 @@ def generate_markdown_content():
 
     # start markdown file
     mdFile = MdUtils(file_name='nsd_images_annotations', title='Images and Annotations', author= 'Claire Holmes')
-    mdFile.new_line(str(datetime.datetime.now()) + '\n')
+    mdFile.new_line(str(datetime.datetime.utcnow()) + '\n')
 
     # set up headers for table
     mdFile.new_line('The images on this webpage have been downsampled from [425, 425] to [200, 200] for upload to GitHub and this webpage.\n')
