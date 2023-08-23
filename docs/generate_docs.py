@@ -12,7 +12,7 @@ def generate_markdown_content():
     shared1000 = pandas.read_table('shared1000_HED.tsv')
 
     # start markdown file
-    mdFile = MdUtils(file_name='nsd_images_annotations', title='Images and Annotations', author= 'Claire Holmes')
+    mdFile = MdUtils(file_name='nsd_images_annotations', title='Images and HED Annotations', author= 'Claire Holmes')
     mdFile.new_line(str(datetime.datetime.utcnow()) + '\n')
 
     # set up headers for table
