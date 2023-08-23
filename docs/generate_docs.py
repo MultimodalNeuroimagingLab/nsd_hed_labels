@@ -44,7 +44,7 @@ def generate_markdown_content():
     #     mdFile.write('|' + annotation + '|\n')
 
     # create the markdown file
-    return mdFile.create_md_file()
+    return mdFile.get_md_text()
 
 if __name__ == "__main__":
     markdown_content = generate_markdown_content()
