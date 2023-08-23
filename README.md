@@ -2,7 +2,7 @@
 This repository contains [Hierarchical Event Descriptors (HED)](https://www.hedtags.org/) labels of 1015 images from the [Natural Scenes Dataset (NSD)](https://naturalscenesdataset.org/) images. This is work in progress...
 
 ## Read the Docs 
-[https://nsd-hed-labels-rtd-test.readthedocs.io/en/latest/](https://nsd-hed-labels-rtd-test.readthedocs.io/en/latest/)
+[https://nsd-hed-labels.readthedocs.io/en/latest/](https://nsd-hed-labels.readthedocs.io/en/latest/)
 
 # Images
 1000 images and their annotations are included in the shared1000_HED.tsv. An additional 15 images and their annotations are included in notShown_HED.tsv. The column titled nsd_id corresponds to the ID of the image as seen in the NSD. The cocoId column corresponds to the indentifier in [COCO](https://cocodataset.org/#home) (note: the images used for NSD and these annotations may be a cropped version of the COCO image). Images are shown to participants with a red fixation dot in the center of the image.
