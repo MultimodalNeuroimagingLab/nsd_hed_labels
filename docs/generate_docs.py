@@ -1,8 +1,9 @@
 # generate_docs.py
+# Claire Holmes August 2023
+# prints the NSD images and their HED annotations to a markdown file for a Read the Docs page 
+
 def generate_markdown_content():
     # Generate your Markdown content here
-    # Claire Holmes August 2023
-    # prints the NSD images and their HED annotations to a markdown file for a Read the Docs page 
 
     import pandas
     import datetime
