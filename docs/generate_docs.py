@@ -1,8 +1,9 @@
 # generate_docs.py
+# Claire Holmes August 2023
+# prints the NSD images and their HED annotations to a markdown file for a Read the Docs page 
+
 def generate_markdown_content():
     # Generate your Markdown content here
-    # Claire Holmes August 2023
-    # prints the NSD images and their HED annotations to a markdown file for a Read the Docs page 
 
     import pandas
     import datetime
@@ -16,7 +17,6 @@ def generate_markdown_content():
 
     # set up headers for table
     mdFile.new_line('The images on this webpage have been downsampled from [425, 425] to [200, 200] for upload to GitHub and this webpage.\n')
-    mdFile.new_line('**Only the first 4 images have been uploaded to GitHub and displayed here as an example. All images will be uploaded pending input from collaborators.** \n')
     mdFile.new_line('**All links to COCO images should be working.** note: actual NSD images may be a cropped version of the COCO image. The cropped version is the one displayed here and on GitHub.')
     mdFile.new_line('Last update: ' + str(datetime.datetime.utcnow().strftime('%B %d %Y - %H:%M:%S')) + '\n')
     mdFile.new_line('|Image|HED annotation|')
